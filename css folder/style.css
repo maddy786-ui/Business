@@ -1,0 +1,343 @@
+/* header section */
+.navbar-brand{
+    font-family: 'Yatra One';
+    font-size: 30px;
+}
+.navbar{
+    background: #37517e !important;
+}
+.nav-link:hover{
+    color:#ff6f61 !important;
+}
+.btn{
+    border-radius: 15px !important;
+}
+/* hero section */
+#hero{
+    width: 100%;
+    height: 80vh;
+    background: #37517e;
+}
+.hero-title{
+    font-family: 'Yatra One';
+    font-weight: bold;
+    font-size: 50px;
+}
+.hero-caption{
+    color: slategrey;
+    font-size: 25px;
+}
+.hero{
+   margin-top: 100px;
+}
+/* clients */
+.clients{
+    padding: 12px 0;
+    text-align: center;
+}
+.section-bg{
+    background-color: #f3f5fa;
+}
+.clients img{
+    filter: grayscale(100);
+    width: 45%;
+    padding: 15px 0;
+    transition: all 0.4s ease-in-out;
+}
+.clients img:hover{
+    cursor: pointer;
+   filter: grayscale(0);
+   transform: scale(1.5);
+}
+/* about section */
+.section-title{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Yatra One';
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #37517e;
+}
+.about p{
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+}
+.check{
+    color: #37517e;
+    font-weight: bold;
+}
+/* why us */
+section{
+    padding: 60px 0;
+}
+#section-bg{
+   background-color: #f3f5fa;
+}
+.whyus-title{
+    color: #37517e;
+    font-family: 'Yatra One';
+}
+.whyus-text{
+    color: slategrey;
+    font-size: 15px;
+}
+.bs-example{
+    margin: 20px;
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+      font-size: 24px;
+      font-weight: bold;
+    position: relative;
+    top: 2px;
+}
+.card{
+margin: 10px;
+}
+/* skills section */
+.skills{
+    padding: 60px 0;
+}
+.skills-title{
+    color: #37517e;
+    font-weight: bold;
+    font-family: 'Yatra One';
+}
+.skills-text{
+    font-family: 'Patrick Hand';
+    font-weight: lighter;
+    font-size: 17px;
+    color: slategrey;
+}
+.skill{
+    margin: 10px;
+}
+.skill-title{
+    color: #37517e;
+    font-weight: 500;
+    font-size: small;
+}
+.skill-text{
+    font-weight: 500;
+    font-size: small;
+    float: right;
+    color: #37517e;
+}
+/* service section */
+.service{
+    padding-top: 60px;
+}
+.service-heading{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Yatra One';
+    color: #37517e;
+}
+.service-text{
+    font-family: 'Patrick Hand';
+    color: slategrey;
+    font-size: 20px;
+}
+.icon{
+    font-size: 25px;
+    font-weight: bold;
+    color: #37517e;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.card-title{
+    font-family: 'Yatra One';
+    color: #37517e;
+}
+.card-text{
+    font-family: 'Patrick Hand';
+    color: slategrey;
+}
+/* cta section */
+.cta {
+    background-color: #37517e;
+}
+.cta-title{
+    font-family: 'Yatra One';
+    font-size: 32px;
+}
+.cta-text{
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+    color: #fff;
+}
+/* portfolio */
+.portfolio-heading{
+    font-family: 'Yatra One';
+    font-size: 50px;
+    font-weight: bold;
+    color: #37517e;
+}
+.portfolio-text{
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+    color: slategrey;
+}
+.portfolio-filter{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.active{
+    background-color: #47b2e4;
+    color: #fff;
+}
+.portfolio-filter li{
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: 'Patrick Hand';
+}
+.portfolio-filter li:hover{
+    background-color: #47b2e4;
+}
+.portfolio .portfolio-item{
+    margin-bottom: 30px;
+}
+.portfolio-img{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.portfolio-img img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+.portfolio-info{
+    position: absolute;
+    top: 0;
+   left: 15px;
+   right: 15px;
+   color: #fff;
+   text-align: center;
+   font-family: 'Patrick Hand';
+   background-color: #909aaa;
+}
+/* team section */
+.team{
+    padding: 50px 0;
+}
+.team-heading{
+   font-family: 'Yatra One';
+   color: #37517e;
+   font-size: 50px;
+}
+.team-caption{
+    color: slategrey;
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+}
+.team .img{
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 20px;
+    border-radius: 50%;
+    width: 100px;
+}
+.team .card-content{
+    margin-left: 245px;
+}
+.card:hover{
+    margin-top: 20px;
+    transition: all 0.3s ;
+}
+/* pricing */
+.pricing{
+    padding: 60px 0;
+}
+.price-heading{
+    font-family: 'Yatra One';
+    font-size: 50px;
+    color: #37517e;
+}
+.price-caption{
+    color: slategrey;
+    font-size: 20px;
+    font-family: 'Patrick Hand';
+}
+.pricing .card-middle{
+   border-top: 5px solid #47b2e4;
+}
+.pricing .card{
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+}
+/* contact section */
+.contact{
+    padding: 60px 0;
+}
+.contact-heading{
+    font-family: 'Yatra One';
+    font-size: 50px;
+    color: #37517e;
+}
+.contact-caption{
+    font-family: 'Patrick Hand';
+    font-size: 20px;
+    color: slategrey;
+}
+.contact .card{
+    border-top: 4px solid #47b2e4;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+}
+/* newsletter-section */
+.news{
+    padding: 60px 0;
+}
+.news-heading{
+    font-family: 'Yatra One';
+    font-size: 50px;
+    color: #37517e;
+}
+.news-caption{
+    font-family: 'Patrick Hand';
+    color: slategrey;
+}
+.mail-box{
+    border-radius: 15px;
+    padding: 4px 8px;
+    width: calc(50% - 100px);
+    margin-left: 10px;
+    border: 0;
+}
+.Subscribe-btn{
+    font-size: 16px;
+    padding: 5px 20px;
+    background: #47b2e4;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border: 0;
+    position: absolute;
+    left: 720px;
+}
+/* footer-section */
+.footer{
+    padding: 60px 0;
+}
+.f-title{
+    font-family: 'Yatra One';
+    color: #37517e;
+}
+.f-text{
+    font-family: 'Patrick Hand';
+    color: slategrey;
+}
+.copyright{
+    padding: 22px 0;
+    background-color: #37517e;
+    font-family: 'Patrick Hand';
+}
+.p-design{
+    margin-left: 375px;
+}

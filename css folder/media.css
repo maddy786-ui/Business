@@ -1,0 +1,50 @@
+@media (max-width: 600px){
+    #hero {
+        text-align: center;
+        height: 100vh;
+      }
+      .hero-title{
+        font-size: 45px;
+      }
+      .hero-caption{
+        font-size: 17px;
+      }
+      .btn-1{
+        margin: 15px;
+      }
+      .hero-img{
+        padding-top: 50px;
+      }
+      .clients img{
+        width: 30%;
+      }
+      .skills img{
+        margin-bottom: 30px;
+      }
+      .team .img{
+         position: absolute;
+         top: 10px;
+         bottom: 0;
+         left: 100px;
+         right: 0;
+      }
+      .team .card-content{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 100px;
+      }
+      .mail-box{
+        margin-left: 0;
+        width: calc(100% - 100px);
+      }
+      .Subscribe-btn{
+        position: absolute;
+        left: 220px;
+      }
+      .copyright p{
+        text-align: center;
+      }
+      .p-design{
+        margin-left: 0;
+      }
+}
